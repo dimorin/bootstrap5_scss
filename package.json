@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +14,8 @@
     "bootstrap": "^5.1.3",
     "bootstrap-icons": "^1.7.2"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  },
+  "homepage":"https://dimorin.github.io/bootstrap5_scss"
 }
